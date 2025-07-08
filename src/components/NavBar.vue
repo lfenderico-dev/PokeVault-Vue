@@ -1,5 +1,7 @@
 <template>
-  <header class="bg-fuchsia-800/30 h-15 flex flex-row items-center gap-40 justify-center">
+  <header
+    class="bg-fuchsia-800/30 h-15 flex flex-row items-center gap-40 justify-center hover:bg-fuchsia-800/80"
+  >
     <nav class="w-fit flex gap-10 justify-center">
       <router-link to="/"><i class="fa-solid fa-house-user text-4xl"></i></router-link>
       <h1 class="text-4xl">PokeVault!</h1>
