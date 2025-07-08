@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar @showInfoBox="showInfoBox = true" @hideInfoBox="showInfoBox = false" />
-    <InfoBox v-if="showInfoBox" />
+    <InfoBox class="-z-10" v-if="showInfoBox" />
     <RouterView />
   </div>
 </template>

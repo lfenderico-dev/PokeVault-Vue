@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-fuchsia-800/50 w-fit p-8 mt-5 absolute right-95">
+  <div class="bg-sky-800/90 w-fit p-8 mt-5 absolute right-95 z-10">
     <h1 class="flex justify-center text-3xl mb-2">Info box:</h1>
     <hr />
     <p class="text-lg mt-2">Hello! This is PokeVault, a website that works like a pokedex.</p>
