@@ -23,6 +23,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 const pokemonName = ref('')
+const emit = defineEmits(['pokemonFetched'])
 
 async function fetchData(e: { preventDefault: () => void }) {
   e.preventDefault()
@@ -33,9 +34,11 @@ async function fetchData(e: { preventDefault: () => void }) {
     const data = await result.json()
     console.log(data)
 
+    emit('pokemonFetched', data)
+
     pokemonName.value = ''
   } catch {
-    alert('Error! Maybe that was not a pokemon?')
+    alert('Error! Maybe that is not a pokemon?')
   }
 }
 </script>
