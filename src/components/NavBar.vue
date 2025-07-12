@@ -4,7 +4,7 @@
   >
     <nav class="w-fit flex gap-10 justify-center">
       <router-link to="/"><i class="fa-solid fa-house-user text-4xl"></i></router-link>
-      <h1 class="text-4xl">PokeVault!</h1>
+      <h1 class="text-4xl">PokeVault 2.0!</h1>
     </nav>
 
     <nav class="w-fit flex gap-10 justify-center">

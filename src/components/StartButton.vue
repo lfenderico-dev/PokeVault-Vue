@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center items-center h-screen">
     <button
-      class="bg-sky-800/60 h-35 w-140 rounded-2xl text-3xl hover:bg-sky-800/90 hover:animate-bounce"
+      class="bg-sky-800/70 px-5 h-50 w-210 rounded-2xl text-4xl hover:bg-sky-800/90 hover:animate-bounce"
       @click="goToMain"
     >
       Click here to start your adventure!

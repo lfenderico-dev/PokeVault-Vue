@@ -3,7 +3,6 @@
     <PokemonSearch @pokemon-fetched="handleData"/>
     <PokemonSprite :pokemonFetched/>
     <ShowStats :pokemonFetched />
-
   </div>
 </template>
 
