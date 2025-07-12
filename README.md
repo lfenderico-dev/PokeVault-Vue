@@ -1,39 +1,36 @@
-# PokeVault-Vue
+![Banner](./src/assets/images/banner.png)
 
-This template should help get you started developing with Vue 3 in Vite.
+# Pokevault 2.0
 
-## Recommended IDE Setup
+PokeVault 2.0 is here!
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+PokeVault is a simple website that can be used as a pokedex!
 
-## Type Support for `.vue` Imports in TS
+This is a better copy done with Vue.js of the version 1: [click to take a look](https://github.com/lfenderico-dev/PokeVault-vanilla)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Purpose
 
-## Customize configuration
+This project was made to get hands on the Vue.js framework.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+- What I learnt:
+  - Basic Vue.js
+  - Routers
+  - How to pass data through child and parent components
+  - Basic tailwindCSS styling
 
-```sh
-npm install
-```
+---
 
-### Compile and Hot-Reload for Development
+- Tech used:
+  - Vue.js
+  - Typescript
+  - TailwindCSS
 
-```sh
-npm run dev
-```
+## Demo
 
-### Type-Check, Compile and Minify for Production
+Here is a video preview of the website: [click here](./src/assets/videos/demo.mp4)
 
-```sh
-npm run build
-```
+## Contributing
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+If you have any recommendations or questions feel free to contact me.
